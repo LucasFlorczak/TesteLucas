@@ -9,7 +9,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('C:\Users\Usuario\Dropbox/imagem site.jpg');
+            background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem na tela */
+            background-repeat: no-repeat; /* Evita a repetição da imagem */
         }
         header {
             background-color: #333;
