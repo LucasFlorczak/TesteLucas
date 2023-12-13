@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site com Imagem de Fundo</title>
+    <title>Carolina Scaburi Ballestrin</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('C:/Users/Usuario/Dropbox/imagem site.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-color: #f4f4f4;
         }
         header {
             background-color: #333;
@@ -23,7 +20,6 @@
         section {
             padding: 20px;
             text-align: center;
-            color: #333; /* Adicionei uma cor de texto para ser visível na imagem de fundo */
         }
         footer {
             background-color: #333;
@@ -38,15 +34,15 @@
 </head>
 <body>
     <header>
-        <h1>Minha Loja de Velas Aromáticas</h1>
+        <h1>Te Amo Muler Linda</h1>
     </header>
     <section>
-        <h2>Produtos em Destaque</h2>
-        <p>Conheça nossa seleção exclusiva de velas aromáticas.</p>
-        <!-- Adicione aqui informações sobre os produtos -->
+        <h2>Informação principal</h2>
+        <p>Amo vc e a Bilaura.</p>
+        <img src="imagem site.jpg" alt="Imagem de destaque">
     </section>
     <footer>
-        &copy; 2023 Minha Loja de Velas Aromáticas
+        &copy; 2023 Feliz Natal.
     </footer>
 </body>
 </html>
