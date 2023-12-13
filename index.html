@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surpresa</title>
+    <title>Te Amo Muler Linda</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            -webkit-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%; /* Ajuste de tamanho de texto para o iPhone */
         }
 
         header {
@@ -38,22 +38,8 @@
         img {
             max-width: 100%;
             height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        .icon-container {
-            display: inline-block;
-            cursor: pointer;
-            margin-right: 10px; /* Ajuste o espaçamento entre o ícone e o texto conforme necessário */
-        }
-
-        .icon {
-            width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
-            height: 20px;
-            background-color: #333; /* Cor do ícone */
-            border-radius: 3px;
-            margin-bottom: 5px;
+            display: block; /* Resolve espaço extra abaixo da imagem */
+            margin: 0 auto; /* Centraliza a imagem */
         }
 
         /* Media Query para tamanhos de tela menores (exemplo: dispositivos móveis) */
@@ -61,30 +47,21 @@
             body {
                 font-size: 14px;
             }
+            /* Adicione mais estilos específicos para tamanhos menores aqui, se necessário */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Carolina Scaburi Ballestrin</h1>
+        <h1>Te Amo Muler Linda</h1>
     </header>
     <section>
-        <h2>Tenho uma coisa para te contar</h2>
-        <!-- Área clicável com ícone -->
-        <div class="icon-container" onclick="abrirAba()">
-            <div class="icon"></div>
-        </div>
+        <h2>Informação principal</h2>
         <p>Amo vc e a Bilaura.</p>
+        <img src="imagem-site.jpg" alt="Imagem de destaque">
     </section>
     <footer>
         &copy; 2023 Feliz Natal.
     </footer>
-
-    <!-- Script para abrir a nova aba -->
-    <script>
-        function abrirAba() {
-            window.open("outra_aba.html", "_blank");
-        }
-    </script>
 </body>
 </html>
