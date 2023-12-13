@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            -webkit-text-size-adjust: 100%; /* Ajuste de tamanho de texto para o iPhone */
+            -webkit-text-size-adjust: 100%;
         }
 
         header {
@@ -38,8 +38,9 @@
         img {
             max-width: 100%;
             height: auto;
-            display: block; /* Resolve espaço extra abaixo da imagem */
-            margin: 0 auto; /* Centraliza a imagem */
+            display: block;
+            margin: 0 auto;
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
         }
 
         /* Media Query para tamanhos de tela menores (exemplo: dispositivos móveis) */
@@ -47,7 +48,6 @@
             body {
                 font-size: 14px;
             }
-            /* Adicione mais estilos específicos para tamanhos menores aqui, se necessário */
         }
     </style>
 </head>
@@ -57,8 +57,11 @@
     </header>
     <section>
         <h2>Tenho uma coisa pra te contar</h2>
+        <!-- Área clicável que abre uma nova aba -->
+        <a href="https://www.exemplo.com" target="_blank">
+            <img src="imagemsite.jpg" alt="Imagem de destaque">
+        </a>
         <p>Amo vc e a Bilaura.</p>
-        <img src="imagemsite.jpg" alt="Imagem de destaque">
     </section>
     <footer>
         &copy; 2023 Feliz Natal.
