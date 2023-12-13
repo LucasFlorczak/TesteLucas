@@ -40,7 +40,20 @@
             height: auto;
             display: block;
             margin: 0 auto;
-            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        }
+
+        .icon-container {
+            display: inline-block;
+            cursor: pointer;
+            margin-right: 10px; /* Ajuste o espaçamento entre o ícone e o texto conforme necessário */
+        }
+
+        .icon {
+            width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+            height: 20px;
+            background-color: #333; /* Cor do ícone */
+            border-radius: 3px;
+            margin-bottom: 5px;
         }
 
         /* Media Query para tamanhos de tela menores (exemplo: dispositivos móveis) */
@@ -56,15 +69,22 @@
         <h1>Carolina Scaburi Ballestrin</h1>
     </header>
     <section>
-        <h2>Tenho uma coisa pra te contar</h2>
-        <!-- Área clicável que abre uma nova aba -->
-        <a href="https://www.exemplo.com" target="_blank">
-            <img src="imagemsite.jpg" alt="Imagem de destaque">
-        </a>
+        <h2>Tenho uma coisa para te contar</h2>
+        <!-- Área clicável com ícone -->
+        <div class="icon-container" onclick="abrirAba()">
+            <div class="icon"></div>
+        </div>
         <p>Amo vc e a Bilaura.</p>
     </section>
     <footer>
         &copy; 2023 Feliz Natal.
     </footer>
+
+    <!-- Script para abrir a nova aba -->
+    <script>
+        function abrirAba() {
+            window.open("outra_aba.html", "_blank");
+        }
+    </script>
 </body>
 </html>
